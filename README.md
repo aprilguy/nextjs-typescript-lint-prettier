@@ -1,4 +1,25 @@
-# Next.js with TypeScript and ESLint
+# Next.js with:
+- Typescript
+- ESLint
+- Prettier
+- Tailwindcss
+
+# vscode setup for tailwindcss auto-completetion
+- install extension, 'tailwindcss intelisense', then edit user-setting like:
+```
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.colorDecorators": "on",
+    "tailwindCSS.includeLanguages": {
+        "typescript": "javascript",
+        "typescriptreact": "javascript"
+    },
+```
+# This is based on [Paul's solution](https://paulintrognon.fr/blog/post/typescript-prettier-eslint-next-js)
+# Next.js with TypeScript and ESLint 
 
 Starter code for a clean Next.js + TypeScript + ESLint project.
 
@@ -33,3 +54,5 @@ Main differences are:
 - TypeScript types are checked before each commit, not just on `git push`.
 - It uses latest Husky v6 version
 - You can build it yourself by [reading the blog post](https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js) :-)
+
+
